@@ -13,6 +13,7 @@ A data-driven workflow for a smart Home Energy Management System that analyzes h
 
 
 
+
 ## Executive Summary
 
 This project develops a complete data science pipeline for predicting household electricity demand and optimizing a home battery system. By leveraging machine learning forecasting models, the system aims to minimize electricity costs and maximize renewable energy self-consumption.
@@ -145,6 +146,18 @@ Install all dependencies:
 pip install pandas numpy matplotlib seaborn statsmodels xgboost scikit-learn
 ```
 
+### Data Dictionary
+The dataset consists of hourly smart meter readings with the following key features:
+
+| Column | Description | Unit |
+| :--- | :--- | :--- |
+| `timestamp` | Date and time of observation | DateTime |
+| `Demand` | Household electricity consumption | kW |
+| `Price` | Electricity market price | €/kWh |
+| `pv` | Solar power generation | kW |
+| `Temperature` | Ambient temperature | °C |
+| `direct_radiation` | Solar irradiance | W/m² |
+
 ## Usage
 
 1. **Setup Environment:**
@@ -236,4 +249,5 @@ This project is part of an academic course assignment (ITS8080).
 ---
 
 **Note:** This project demonstrates a complete data science workflow from raw data to actionable insights, showcasing both statistical and machine learning approaches for time series forecasting in energy management applications.
+
 
