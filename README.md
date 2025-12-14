@@ -181,17 +181,17 @@ The dataset consists of hourly smart meter readings with the following key featu
 
 ## Tasks Completed
 
-- ✅ Task 1: Data Inspection & Loading
-- ✅ Task 3: Visualization & Statistical Summaries
-- ✅ Task 4: Data Cleaning (KNN Imputation)
-- ✅ Task 5: Feature Engineering
-- ✅ Task 6: Time Series Decomposition
-- ✅ Task 7: Statistical Modelling (ARIMA)
-- ✅ Task 8: Machine Learning (XGBoost)
-- ✅ Task 9: Model Comparison
-- ✅ Task 10: Forecasting Pipeline
-- ✅ Task 11: Optimal Battery Control
-- ✅ Task 12: Conclusions
+-  Task 1: Data Inspection & Loading
+-  Task 3: Visualization & Statistical Summaries
+-  Task 4: Data Cleaning (KNN Imputation)
+-  Task 5: Feature Engineering
+-  Task 6: Time Series Decomposition
+-  Task 7: Statistical Modelling (ARIMA)
+-  Task 8: Machine Learning (XGBoost)
+-  Task 9: Model Comparison
+-  Task 10: Forecasting Pipeline
+-  Task 11: Optimal Battery Control
+-  Task 12: Conclusions
 
 ## Insights
 
